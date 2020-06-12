@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-12T16:57:44Z" name="Suite" finished-at="2020-06-12T16:59:25Z" duration-ms="100408">
+    <groups>
+    </groups>
+    <test started-at="2020-06-12T16:57:44Z" name="Test" finished-at="2020-06-12T16:57:44Z" duration-ms="9">
+    </test> <!-- Test -->
+    <test started-at="2020-06-12T16:57:44Z" name="Validating Title on Homepage" finished-at="2020-06-12T16:58:09Z" duration-ms="24565">
+      <class name="Shalaka1.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.ValidateTitle@4152d38d]" started-at="2020-06-12T22:27:44Z" name="InitilizeTest" finished-at="2020-06-12T22:27:58Z" duration-ms="13579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="ValidateAppTitle()[pri:1, instance:Shalaka1.E2EProject.ValidateTitle@4152d38d]" started-at="2020-06-12T22:27:58Z" name="ValidateAppTitle" finished-at="2020-06-12T22:28:09Z" duration-ms="10830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method signature="ValidateAppHeader()[pri:2, instance:Shalaka1.E2EProject.ValidateTitle@4152d38d]" started-at="2020-06-12T22:28:09Z" name="ValidateAppHeader" finished-at="2020-06-12T22:28:09Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppHeader -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.ValidateTitle@4152d38d]" started-at="2020-06-12T22:28:09Z" name="closeBrowser" finished-at="2020-06-12T22:28:09Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title on Homepage -->
+    <test started-at="2020-06-12T16:57:44Z" name="Validation of Navigation Bar" finished-at="2020-06-12T16:58:13Z" duration-ms="28897">
+      <class name="Shalaka1.E2EProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@660e9100]" started-at="2020-06-12T22:27:44Z" name="InitilizeTest" finished-at="2020-06-12T22:27:59Z" duration-ms="14492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="ValidateAppNavigationBar()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@660e9100]" started-at="2020-06-12T22:27:59Z" name="ValidateAppNavigationBar" finished-at="2020-06-12T22:28:13Z" duration-ms="14341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppNavigationBar -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@660e9100]" started-at="2020-06-12T22:28:13Z" name="closeBrowser" finished-at="2020-06-12T22:28:13Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validation of Navigation Bar -->
+    <test started-at="2020-06-12T16:57:44Z" name="Validation of login with credentials" finished-at="2020-06-12T16:59:25Z" duration-ms="100408">
+      <class name="Shalaka1.E2EProject.ValidateCredentials">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.ValidateCredentials@6e57e95e]" started-at="2020-06-12T22:27:44Z" name="InitilizeTest" finished-at="2020-06-12T22:27:50Z" duration-ms="6011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="ValidateAppCredentials(java.lang.String, java.lang.String)[pri:0, instance:Shalaka1.E2EProject.ValidateCredentials@6e57e95e]" started-at="2020-06-12T22:27:50Z" name="ValidateAppCredentials" data-provider="getData" finished-at="2020-06-12T22:28:31Z" duration-ms="40449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test8229290@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppCredentials -->
+        <test-method signature="ValidateAppCredentials(java.lang.String, java.lang.String)[pri:0, instance:Shalaka1.E2EProject.ValidateCredentials@6e57e95e]" started-at="2020-06-12T22:28:31Z" name="ValidateAppCredentials" data-provider="getData" finished-at="2020-06-12T22:29:24Z" duration-ms="53504" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"ul[class='navigation clearfix']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HM366M2I', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shalaka\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 455d2a6dc5bf0834bd16badac1537a2e
+*** Element info: {Using=css selector, value=ul[class='navigation clearfix']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"ul[class='navigation clearfix']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-HM366M2I', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Shalaka\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 455d2a6dc5bf0834bd16badac1537a2e
+*** Element info: {Using=css selector, value=ul[class='navigation clearfix']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pageObjects.LoggedInPage.usernavigation(LoggedInPage.java:23)
+	at Shalaka1.E2EProject.ValidateCredentials.ValidateAppCredentials(ValidateCredentials.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.ValidateCredentials@6e57e95e]" started-at="2020-06-12T22:29:25Z" name="closeBrowser" finished-at="2020-06-12T22:29:25Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.ValidateCredentials -->
+    </test> <!-- Validation of login with credentials -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-04T18:11:38Z" name="Suite" finished-at="2020-06-04T18:12:44Z" duration-ms="65649">
+    <groups>
+    </groups>
+    <test started-at="2020-06-04T18:11:38Z" name="Test" finished-at="2020-06-04T18:11:38Z" duration-ms="4">
+    </test> <!-- Test -->
+    <test started-at="2020-06-04T18:11:38Z" name="Validation of Navigation Bar" finished-at="2020-06-04T18:12:07Z" duration-ms="28786">
+      <class name="Shalaka1.E2EProject.ValidateNavigationBar">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@74cec793]" started-at="2020-06-04T23:41:38Z" name="InitilizeTest" finished-at="2020-06-04T23:41:56Z" duration-ms="17844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="ValidateAppNavigationBar()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@74cec793]" started-at="2020-06-04T23:41:56Z" name="ValidateAppNavigationBar" finished-at="2020-06-04T23:42:07Z" duration-ms="10780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppNavigationBar -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.ValidateNavigationBar@74cec793]" started-at="2020-06-04T23:42:07Z" name="closeBrowser" finished-at="2020-06-04T23:42:07Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.ValidateNavigationBar -->
+    </test> <!-- Validation of Navigation Bar -->
+    <test started-at="2020-06-04T18:11:38Z" name="Validating Title on Homepage" finished-at="2020-06-04T18:12:13Z" duration-ms="35406">
+      <class name="Shalaka1.E2EProject.ValidateTitle">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.ValidateTitle@290b1b2e]" started-at="2020-06-04T23:41:38Z" name="InitilizeTest" finished-at="2020-06-04T23:41:56Z" duration-ms="17780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="ValidateAppTitle()[pri:1, instance:Shalaka1.E2EProject.ValidateTitle@290b1b2e]" started-at="2020-06-04T23:41:56Z" name="ValidateAppTitle" finished-at="2020-06-04T23:42:09Z" duration-ms="13507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method signature="ValidateAppHeader()[pri:2, instance:Shalaka1.E2EProject.ValidateTitle@290b1b2e]" started-at="2020-06-04T23:42:09Z" name="ValidateAppHeader" finished-at="2020-06-04T23:42:09Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppHeader -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.ValidateTitle@290b1b2e]" started-at="2020-06-04T23:42:09Z" name="closeBrowser" finished-at="2020-06-04T23:42:13Z" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.ValidateTitle -->
+    </test> <!-- Validating Title on Homepage -->
+    <test started-at="2020-06-04T18:11:38Z" name="Validation of login with credentials" finished-at="2020-06-04T18:12:44Z" duration-ms="65649">
+      <class name="Shalaka1.E2EProject.HomePage">
+        <test-method is-config="true" signature="InitilizeTest()[pri:0, instance:Shalaka1.E2EProject.HomePage@32232e55]" started-at="2020-06-04T23:41:38Z" name="InitilizeTest" finished-at="2020-06-04T23:41:44Z" duration-ms="5986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitilizeTest -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Shalaka1.E2EProject.HomePage@32232e55]" started-at="2020-06-04T23:41:44Z" name="basePageNavigation" data-provider="getData" finished-at="2020-06-04T23:42:15Z" duration-ms="30886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Shalaka1.E2EProject.HomePage@32232e55]" started-at="2020-06-04T23:42:15Z" name="basePageNavigation" data-provider="getData" finished-at="2020-06-04T23:42:44Z" duration-ms="28695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user01@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Shalaka1.E2EProject.HomePage@32232e55]" started-at="2020-06-04T23:42:44Z" name="closeBrowser" finished-at="2020-06-04T23:42:44Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Shalaka1.E2EProject.HomePage -->
+    </test> <!-- Validation of login with credentials -->
+  </suite> <!-- Suite -->
+</testng-results>

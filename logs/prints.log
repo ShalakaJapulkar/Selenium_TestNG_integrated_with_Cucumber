@@ -1,0 +1,6 @@
+22:28:09.152 [TestNG] INFO  Resources.Base - Header validation successful
+22:28:13.541 [TestNG] INFO  Resources.Base - Navigation Bar validated
+22:28:23.514 [TestNG] INFO  Resources.Base - Entered test8229290@gmail.com and 1234567 successfully
+22:28:31.179 [TestNG] INFO  Resources.Base - Logged in successfully
+22:28:32.219 [TestNG] INFO  Resources.Base - Navigated to HomePage
+22:29:06.248 [TestNG] INFO  Resources.Base - Entered user01@gmail.com and 456789 successfully
